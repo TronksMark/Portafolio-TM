@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Century-Gothic";
+    src: url("Tipografia/Century\ Gothic.ttf");
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+@font-face {
+        font-family: "Century-Gothic-Bold";
+        src: url("Tipografia/GOTHIC.TTF");
+        font-weight: bold;
+        font-style: bold;
+        }
+
+@font-face {
+    font-family: "Century-Gothic-Italic";
+    src: url("Tipografia/GOTHICI.TTF")
+}
+
+    
+.parrafos1 {
+            color: #000000;
+            font-family: "Century-Gothic";
+            font-style: normal;
+            font-size: 15px;
+        }
+
+.titulo-menu {
+    color: white;
+    font-family: "Century-Gothic";
+    font-style: normal;
+    font-size: 13px;
+}
+    
+.titulo1 {
+            color: #000000;
+            font-family: "Century-Gothic-Bold";
+            font-style: bold;
+            font-size: 13px;
+        }
+    
+.titulo2 {
+            color: #000000;
+            font-family: "Century-Gothic-Bold";
+            font-style: bold;
+            font-size: 18px;
+        }
+    
+.titulo3 {
+            color: #000000;
+            font-family: "Century-Gothic-Bold";
+            font-style: bold;
+            font-size: 22px;
+        }
+  
+body {
+        margin: 0;
+    }
+    
+a {
+    text-decoration: none;
+}
+    
+header {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+    
+nav a {
+    padding-right: 35px;
+}
+    
+nav a:hover {
+    font-weight: bold;
+}
+
+.fotoinicio {
+    height: 10px;
+    background-image: url(Imagenes/Inicio/Foto-Inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+}
+
+.Foto-Hugo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logoscentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.photoshop {
+    margin-right: 80px;
+}
+
+.illustrator {
+    margin-right: 80px;
+}
+
+.fotoscentro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img1 {
+    margin-right: 15px;
+}
+
+.img2 {
+    margin-right: 15px;
+}
+
+.botoninicio {
+    display: block;
+    width: 164px;
+    color: #ffffff;
+    font-family: "Century-Gothic-Bold";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 40px auto;
+}
+
+.logoabajo1 {
+    margin-top: 40px;
+}
+
+.logosredes {
+    margin-top: 40px;
+}
+
+.instagram {
+    margin-right: 11px;
+}
+
+.behance {
+    margin-right: 8px;
+}
+
+.lineahorizontal1 {
+    margin-top: 5px;
+}
+
+.fotoscentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.botoneli {
+    display: block;
+    width: 100px;
+    color: #000000;
+    font-family: "Century-Gothic-Bold";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 40px auto;
+    margin-top: 5px;
+}
+
+.botonmasinfo {
+    display: block;
+    width: 200px;
+    color: #ffffff;
+    font-family: "Century-Gothic-Bold";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 15px 50px;
+    margin: 40px auto;
+    margin-top: 40px;
+}
+
+.fotoconctato {
+    height: 10px;
+    background-image: url(Imagenes/Inicio/Foto-Contacto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+}
